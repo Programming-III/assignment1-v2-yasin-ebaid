@@ -3,8 +3,22 @@
 
 #include "Person.h"
 using namespace std;
-//#write Instructor class here
+#include <iostream>
+#include <string>
+using namespace std;
 
+class Instructor {
+private:
+    string name;
+    int id;
+    string department;
+    int expYears;
+
+public:
+    Instructor(string name, int id, string department, int expYears);
+    void display();
+    ~Instructor();
+};
 
 
 
