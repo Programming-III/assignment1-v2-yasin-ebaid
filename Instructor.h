@@ -3,9 +3,6 @@
 
 #include "Person.h"
 using namespace std;
-#include <iostream>
-#include <string>
-using namespace std;
 
 class Instructor {
 private:
